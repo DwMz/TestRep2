@@ -13,7 +13,7 @@ neuer Absatz3
 blat
 wefweWEFW E
 
-Erg‰nzt in branch1
+Erg√§nzt in branch1
 Auuch in branch1
 wef
-ooo
+ooo hihi
