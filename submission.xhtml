@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+
+
+<head>
+<title>Edmond Submission Guide</title>
+</head>
+
+
+
+<body>
+
+
+
+<h1>Edmond Submission Guide</h1>
+
+
+<p>This page serves as guideline for those who want to submit and publish data on Edmond.</p>
+
+
+<h2>Introduction</h2>
+
+
+<h3>Terms used on this page, roles</h3>
+
+<ul>
+ <li>R_Sub: Submitter of the dataset, i.e. the person which creates the dataset and communicates with R_Edi. </li>
+ <li>R_Edi: Edmond team or Edmond editor (i.e. a person of the Edmond team who reviews the dataset, communicates with R_Sub, and does the final steps of the publishing process).  </li>
+ <li>R_EdStuart: Edmond data stuart. This is a person or position, which takes care about the curation of the dataset, in particular after the dataset has been published. An R_EdStuart is a member of the extended Edmond team and typically works at the Max Planck Digital Library or at a Max Planck Institute.</li>
+ <li>L_B: Curation level for a dataset, cf xyx</li>
+ <li>L_C: Curation level for a dataset, cf xyx</li>
+</ul>
+
+
+<h3>Mission and Scope</h3>
+
+<dl>
+ <dt>Aim</dt>
+  <dd>The aim of Edmond ist to store and provide research data in an openly accessible and citable way.</dd>
+ <dt>Scope</dt>
+  <dd>Before submitting data, please check whether your data files are within the scope of Edmond.</dd>
+  <dd>These are research data and metadata like processed data (e.g. in tabular form), raw data, data supporting findings or papers, metadata and code having been used for data processing.</dd>
+  <dd>However, please take care not to publish and sensitive data or data where you don't have the needed rights for publishing them.</dd>
+  <dd>Also text- or picture-based documents or presentations are typically out of scope for Edmond.</dd>
+  <dd>See xyx for further details or contact Edmond support in case of doubt.</dd>
+</dl>
+
+
+<h3>Background: Motivation for the curation process</h3>
+
+<p>
+ About a decade ago, when Edmond had been launched, the main focus was to provide an easy-to-use discipline-agnostic repository, where Max Planck scientists can publish smaller amounts of reasearch data.
+ While meanwhile several alternative repositories exist for mainy research fields, and standard repositories like zenodo for non-curated file deposit, we want to improve the reusability (which often comes along with a higher quality) of the data published on Edmond.
+</p>
+<p>
+ The data shall be FAIR (Findable, Accessible, Interoperable, Reusable), which requires approriate metadata to find and unterstand the data, as well as interoperable file formats.
+ To foster such FAIR data, there is a quality certificate named 'CoreTrustSeal', which has been given to ~100? repositories so far, and which meanwhile requires curation processes.
+ Being one of these CoreTrustSeal certified repositories, Edmond wants to follow these requirements.
+</p>
+<p>
+ We are aware, that a curation process, which involves personal interaction between the data provider (author) and the Edmond team, has the downside of making the data publication process slower.
+ However, considering the strongly increasing data volumes, we see the necessarity to be able to intervene or propose improvements before the publication and archiving of data for at least 10 years or longer.
+ And we expect that the increase of the reusability of our datasets will justify the enhanced effort caused by the curation process.
+</p>
+
+
+<h3>Levels L_B und L_C</h3>
+
+<p>
+ Per default, data sets in Edmond are published as level 'L_B',
+ which means that a basic data curation takes place by the Edmond team before the data are published.
+</p>
+<p>
+ This curation process includes a check of the dataset metadata (title, description, authors etc) and whether a README file or similar is available (if needed).
+ Where necessary, the authors are asked for improvements.
+</p>
+<p>
+ Furthermore we offer level 'L_C' for selected datasets, with stricter requirements considering the file format, namely the suitability of the file format for long-term archiving.
+ See xyx for further details.
+</p>
+
+
+<h2>Curation workflow</h2>
+
+<p>
+ The following figure depicts the typical workflow during the process of submission, review and publication of a dataset.
+</p>
+<p>
+ <img src="./Figs/Fig_SubmWorkflow_e01.png" alt="Sketch depicting submission workflow" />
+</p>
+<p>
+ Explanation of the steps:
+</p>
+<ul>
+ <li>
+  R_Sub creates a first draft of the dataset in Edmond, fills the metadata fields and uploads the data files.
+  If desired, R_Sub fills field "CurationLevel" with a message for R_Edi. That field will be overwritten by R_Edi before the dataset gets published, cf below.
+  Once done, R_Sub clicks button "Submit for Review".
+ </li>
+ <li>
+  R_Edi reviews the dataset.
+  Depending on the time of day and week and our workload, this may take several days.
+  <ul>
+   <li>
+    In case everything is fine:<br />
+    R_Edi asks R_Sub for the confirmation to publish the dataset as is.
+   </li>
+   <li>
+    Otherwise:<br />
+    R_Edi makes suggestions to R_Sub for improving the dataset.
+    R_Sub does so or gets in contact with R_Edi for clarification.
+    Once done, R_Sub clicks button "Submit for Review", after which R_Edi reviews again the dataset.
+    Depending on the complexity of the dataset, this step may be done several times.
+    Once everything is fine, R_Edi asks R_Sub for the confirmation to publish the dataset.
+   </li>
+  </ul>
+ </li>
+ <li>
+  After confirmation by R_Sub, the dataset gets published by R_Edi.
+  This includes the registration of the DOI, and the dataset will be openly accessable.
+ </li>
+</ul>
+
+
+<h2>Guidelines</h2>
+
+
+<h3>Legal and organisational aspects</h3>
+
+Before publishing data to Edmond, legal aspects have to be considered.
+
+<h4>Sensitive data</h4>
+
+<p>
+ Data published on Edmond are open accessible.
+ Therefore, they must not include any sensitive data. Examples for sensitive data are:
+</p>
+<ul>
+ <li>Person-related data: xxx GDPR</li>
+ <li>Dual use: xxx</li>
+ <li>Secrets: Data must not contain any secrets or information which may be problematic. For example, the precise position of rare biological species should not be offered in case this would cause a risk for those.</li>
+</ul>
+
+<h4>Ownership, Copyright</h4>
+
+<p>
+ R_Sub has the responsibility to clarify the ownership.
+ In case R_Sub is not the owner of the data, R_Sub has to get allowance for publishing the data by the owner.
+ Also Copyright issues (e.g. in case of code publication) and other intellectual properties or interests by other stakeholders have to be clarified.
+</p>
+
+<h4>Licence</h4>
+
+<p>
+ Choosing a proper licence for a dataset is important for its reusability by others, because the licence informs potential re-users about how they are allowed to deal with the data.
+ Edmond supports several licences. For most cases, we recommend to use CC0 as a very open licence.
+ See xyx(Edmond-Hilfeseite) for further information.
+</p>
+
+<h4>Contact and curation, dataset levels</h4>
+
+<p>
+ Edmond has a metadata field named "Contact" for providing a contact email.
+ The entered email address is not publicly shown, but by clicking button "Contact Owner", a user can sent a message to that email.
+ The contacted person should be the person who can give further information about the dataset, including scientific questions, metadata, legal aspects, further available data, further contacts, etc.
+ It is recommended to provide more than one email address, in particular in case one is not sure whether the email will be read in some years (due to temporal contracts, retirement etc).
+ Usually, these contact persons are R_Sub or R_EdStuart, or both.
+ Instead of or in addition to a personal email address, one can provide functional email addresses like "data-management@example-project.de" or "library@example-mpi.de",
+ which are expected to be available even after the retirement of the current persons.
+</p>
+
+<p>
+ Once a dataset is published, R_Edi takes care about the technical preservation, namely the bitstream preservation of the files and the storage of the metadata fields.
+ This is done for both, dataset levels L_B and L_C.
+</p>
+<p>
+ However, level L_C datasets have additional requirements for the dataset:
+ At least one of the contact emails have to belong to an R_EdStuart, who will take care about the curation of the dataset after publication for at least 10 years.
+ Part of this curation is to serve as contact for data users and for R_Edi.
+ R_EdStuart answers questions and connects with other researchers for further information where necessary.
+ R_EdStuart initiates metadata updates or corrections of the dataset where necessary, thus taking over the job of R_Sub, in case the original R_Sub is not available.
+ R_EdStuart takes also care that the files stay readable with available software. If necessary, R_EdStuart initiates the conversion of the files to a new format.
+ In order to make the probability for that need low, file formats suitable for long-term archiving have to be taken.
+</p>
+<p>
+ If necessary, R_Edi may perform corrections and updates of the dataset even without the explicit consent of R_Sub or R_EdStuart in case both should not be reachable any more. This applies for both, level L_B and L_C datasets.
+</p>
+
+
+<h3>How to create a dataset in Edmond</h3>
+
+<p>
+ This section shows the first step of the workflow, namely the creation of the dataset, and how to add data and metadata.
+ For your convenience, we offer a quick summary, a screencast video, and an extended description with screenshots.
+</p>
+<p>Following a quick summary:</p>
+<ul>
+ <li>Log in into your Edmond account.</li>
+ <li>Click button "Add Data" and "New Dataset".</li>
+ <li>Enter metadata, then click "Save Dataset" button.</li>
+ <li>Upload files by clicking Button "Upload Files". You can drag and drop files or click "Select Files to Add". If desired, add description and file path of each file. Click "Save changes".</li>
+ <li>Click on button "Submit for Review"</li>
+ <li>Wait for response by R_Edi.</li>
+</ul>
+<p>Following a link to a screencast showing these steps: xyx</p>
+<p>And here a more detailed descriptin with screenshots:</p>
+<ul>
+ <li>xxx</li>
+ <li>
+  xxx
+ </li>
+ <li>If desired, enter some message into metadata field "CurationLevel" and click again "Save changes"</li>
+</ul>
+
+
+<h3>Metadata</h3>
+
+<h4>Description of the metadata fields</h4>
+
+xxx
+
+<h4>Further comments about the metadata</h4>
+
+
+<h3>File format</h3>
+
+<p>
+ For the sake of interoperability and reusability, suitable file formats have to be chosen,
+ which can be read by several free software products, and from which one can assume, that also in future, software will be available to read.
+ Criteria for the suitability for long-term archiving are:
+</p>
+<ul>
+ <li>Simplicity</li>
+ <li>Documentation</li>
+ <li>Storage consumption</li>
+ <li>Performance</li>
+ <li>Usage and software availability</li>
+ <li>Software availability</li>
+ <li>Open</li>
+</ul>
+
+
+<p>Following file formats are recommended: xxx</p>
+
+
+</body>
+
+
+
+</html>
